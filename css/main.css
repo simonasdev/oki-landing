@@ -10,6 +10,10 @@ body {
   height: 200px;
 }
 
+.logo {
+  height: 200px;
+}
+
 .logo-container .left-bar {
   height: 5px;
   background-color: #030304;
@@ -48,7 +52,7 @@ body {
 }
 
 .links .row > div:first-child {
-  margin-left: 30.33333333%;
+  margin-left: 31.33333333%;
 }
 
 .links img {
@@ -95,7 +99,7 @@ h4 {
 }
 
 .goal {
-  height: 500px;
+  height: 400px;
 }
 
 .no-collapse {
@@ -115,10 +119,17 @@ h4 {
 }
 
 .text-container {
-  padding: 0 250px;
+  padding: 0 600px;
 }
 
 .text-container .heading {
   margin-top: 0;
+}
+
+.facebook {
+  font-size: 25px;
+}
+.info {
+  font-size: 20px;
 }
 /*# sourceMappingURL=main.css.map */
