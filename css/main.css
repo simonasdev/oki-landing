@@ -49,6 +49,7 @@ body {
   cursor: pointer;
   color: #7faee2;
   margin: 0 10px;
+  font-size: 18px;
 }
 
 .links .row > div:first-child {
@@ -61,7 +62,7 @@ body {
 }
 
 .product {
-  height: 300px;
+  width: 100%;
   background-color: #7faee2;
 }
 
@@ -131,5 +132,8 @@ h4 {
 }
 .info {
   font-size: 20px;
+}
+a {
+  color: #7faee2;
 }
 /*# sourceMappingURL=main.css.map */
