@@ -1,0 +1,122 @@
+$dark: #030304;
+$blue: #7faee2;
+
+body {
+  padding-bottom: 20px;
+}
+
+.logo-container {
+  text-align: center;
+  .logo {
+    height: 200px;
+  }
+
+  .left-bar {
+    height: 5px;
+    background-color: $dark;
+    width: 47%;
+    float: left;
+  }
+  .right-bar {
+    height: 5px;
+    background-color: $blue;
+    width: 47%;
+    margin-left: 6%;
+    float: left;
+  }
+
+  &.padded {
+    margin-top: 50px;
+  }
+}
+
+.links {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .row {
+    flex: 1;
+    > div {
+      padding: 20px 0;
+      cursor: pointer;
+      color: $blue;
+      margin: 0 10px;
+
+      &:first-child {
+        margin-left: 30.33333333%;
+      }
+    }
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.product {
+  height: 300px;
+  background-color: $blue;
+}
+
+.heading {
+  margin: 50px 0;
+  font-size: 30px;
+  color: $blue;
+
+  &.dark {
+    color: $dark;
+  }
+}
+
+.bar {
+  height: 5px;
+  background-color: $blue;
+
+  &.dark {
+    background-color: $dark;
+  }
+}
+
+.about-product {
+  height: 400px;
+  background-color: $blue;
+  margin: 60px 0;
+}
+
+.kids {
+  width: 100%;
+}
+
+h4 {
+  color: $blue;
+}
+
+.goal {
+  height: 500px;
+}
+
+.no-collapse {
+  padding-top: 0.1px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: $blue;
+
+  .logo {
+    width: 150px;
+  }
+}
+
+.text-container {
+  padding: 0 250px;
+
+  .heading {
+    margin-top: 0;
+  }
+}
